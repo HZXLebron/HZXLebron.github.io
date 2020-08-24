@@ -1,29 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #box{
+        body{
+            background:url(./images/timg\ \(1\).jpg);
+        }
+        .top{
+            height: 500px;
+            width: 1200px;
+            margin: 0 auto;
+        }
+        .top img{
+            width: 100%;
+            height: 100%;
+        }
+        #box {
             height: 200px;
             line-height: 200px;
             text-align: center;
             font-size: 30px;
-            color:#fff;
-            background:linear-gradient(red,orange,yellow,green,cyan,blue,purple);
+            color: purple;
+           background-color: yellow;
         }
-        .name{
+
+        .name {
             margin: 50px auto;
             text-align: center;
         }
+
+        .nav {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            width: 1200px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            color:yellow;
+            font-size:20px ;
+            background-color: purple;
+        }
+        img{
+            height: 300px;
+            width: 300px;
+        }
     </style>
 </head>
+
 <body>
-    <div id="box">LeBron的个人主页</div>
-    <div class="name">
+    <div id="box">Lakers的球队主页</div>
+    <div class="top">
+        <img src="./images/2.jpg" alt="">
+    </div>
+    
+    <div class="name nav">
+        <div class="intro">
+            <table>
+                <tbody>
+                    <thead>
+                        <tr>
+                            <th>姓名</th>
+                            <th>年龄</th>
+                            <th>出生日期</th>
+                            <th>位置</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>卡卢索</td>
+                        <td>25</td>
+                        <td>1995-7-30</td>
+                        <td>控球后卫/PG</td>
+                    </tr>
+                    <tr>
+                        <td>丹尼-格林</td>
+                        <td>33</td>
+                        <td>1987-7-30</td>
+                        <td>得分后卫/SG</td>
+                    </tr>
+                    <tr>
+                        <td>勒布朗-詹姆斯</td>
+                        <td>35</td>
+                        <td>1984-12-30</td>
+                        <td>小前锋/SF</td>
+                    </tr>
+                    <tr>
+                        <td>安东尼-戴维斯</td>
+                        <td>26</td>
+                        <td>1994-6-14</td>
+                        <td>大前锋/PF</td>
+                    </tr>
+                    <tr>
+                        <td>德怀特-霍华德</td>
+                        <td>34</td>
+                        <td>1986-4-18</td>
+                        <td>中锋/C</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <h3>生活照</h3>
         <img src="./images/lebron.jpg.jpg" alt="">
     </div>
 </body>
+
 </html>
